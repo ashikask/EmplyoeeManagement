@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2174DEB1EBCD15A00C3B9C1 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DEA1EBCD15A00C3B9C1 /* DatePickerViewController.swift */; };
+		F2174DED1EBCD18600C3B9C1 /* EmployeeAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DEC1EBCD18600C3B9C1 /* EmployeeAddViewController.swift */; };
+		F2174DEF1EBCDFE000C3B9C1 /* GenderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DEE1EBCDFE000C3B9C1 /* GenderTableViewController.swift */; };
+		F2174DF31EBCF40D00C3B9C1 /* HobbieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DF21EBCF40D00C3B9C1 /* HobbieViewController.swift */; };
+		F2174DF51EBDB37E00C3B9C1 /* EmployeeListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DF41EBDB37E00C3B9C1 /* EmployeeListingViewController.swift */; };
+		F2174DF71EBF486D00C3B9C1 /* EmployeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DF61EBF486D00C3B9C1 /* EmployeeDetailViewController.swift */; };
+		F2174DFD1EBF840F00C3B9C1 /* SortTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2174DFC1EBF840F00C3B9C1 /* SortTableViewController.swift */; };
+		F23FD97A1EBB6DE300ACF004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FD9791EBB6DE300ACF004 /* AppDelegate.swift */; };
+		F23FD97F1EBB6DE300ACF004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23FD97D1EBB6DE300ACF004 /* Main.storyboard */; };
+		F23FD9821EBB6DE300ACF004 /* Employee_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F23FD9801EBB6DE300ACF004 /* Employee_Management.xcdatamodeld */; };
+		F23FD9841EBB6DE300ACF004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23FD9831EBB6DE300ACF004 /* Assets.xcassets */; };
+		F23FD9871EBB6DE300ACF004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23FD9851EBB6DE300ACF004 /* LaunchScreen.storyboard */; };
+		F23FD9921EBB6DE300ACF004 /* Employee_ManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FD9911EBB6DE300ACF004 /* Employee_ManagementTests.swift */; };
+		F23FD99D1EBB6DE300ACF004 /* Employee_ManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FD99C1EBB6DE300ACF004 /* Employee_ManagementUITests.swift */; };
+		F23FD9AC1EBB74A300ACF004 /* initial-down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F23FD9AB1EBB74A300ACF004 /* initial-down-arrow.png */; };
+		F23FD9B21EBB793700ACF004 /* EmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23FD9B11EBB793700ACF004 /* EmployeeListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23FD98E1EBB6DE300ACF004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23FD96E1EBB6DE200ACF004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23FD9751EBB6DE300ACF004;
+			remoteInfo = "Employee Management";
+		};
+		F23FD9991EBB6DE300ACF004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23FD96E1EBB6DE200ACF004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23FD9751EBB6DE300ACF004;
+			remoteInfo = "Employee Management";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2174DEA1EBCD15A00C3B9C1 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		F2174DEC1EBCD18600C3B9C1 /* EmployeeAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeAddViewController.swift; sourceTree = "<group>"; };
+		F2174DEE1EBCDFE000C3B9C1 /* GenderTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenderTableViewController.swift; sourceTree = "<group>"; };
+		F2174DF21EBCF40D00C3B9C1 /* HobbieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HobbieViewController.swift; sourceTree = "<group>"; };
+		F2174DF41EBDB37E00C3B9C1 /* EmployeeListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListingViewController.swift; sourceTree = "<group>"; };
+		F2174DF61EBF486D00C3B9C1 /* EmployeeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailViewController.swift; sourceTree = "<group>"; };
+		F2174DFC1EBF840F00C3B9C1 /* SortTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortTableViewController.swift; sourceTree = "<group>"; };
+		F23FD9761EBB6DE300ACF004 /* Employee Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23FD9791EBB6DE300ACF004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F23FD97E1EBB6DE300ACF004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23FD9811EBB6DE300ACF004 /* Employee_Management.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Employee_Management.xcdatamodel; sourceTree = "<group>"; };
+		F23FD9831EBB6DE300ACF004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F23FD9861EBB6DE300ACF004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F23FD9881EBB6DE300ACF004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23FD98D1EBB6DE300ACF004 /* Employee ManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee ManagementTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23FD9911EBB6DE300ACF004 /* Employee_ManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_ManagementTests.swift; sourceTree = "<group>"; };
+		F23FD9931EBB6DE300ACF004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23FD9981EBB6DE300ACF004 /* Employee ManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Employee ManagementUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23FD99C1EBB6DE300ACF004 /* Employee_ManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee_ManagementUITests.swift; sourceTree = "<group>"; };
+		F23FD99E1EBB6DE300ACF004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23FD9AB1EBB74A300ACF004 /* initial-down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "initial-down-arrow.png"; sourceTree = "<group>"; };
+		F23FD9B11EBB793700ACF004 /* EmployeeListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployeeListTableViewCell.swift; path = ../View/EmployeeListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23FD9731EBB6DE300ACF004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD98A1EBB6DE300ACF004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD9951EBB6DE300ACF004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F23FD96D1EBB6DE200ACF004 = {
+			isa = PBXGroup;
+			children = (
+				F23FD9781EBB6DE300ACF004 /* Employee Management */,
+				F23FD9901EBB6DE300ACF004 /* Employee ManagementTests */,
+				F23FD99B1EBB6DE300ACF004 /* Employee ManagementUITests */,
+				F23FD9771EBB6DE300ACF004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F23FD9771EBB6DE300ACF004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD9761EBB6DE300ACF004 /* Employee Management.app */,
+				F23FD98D1EBB6DE300ACF004 /* Employee ManagementTests.xctest */,
+				F23FD9981EBB6DE300ACF004 /* Employee ManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23FD9781EBB6DE300ACF004 /* Employee Management */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD9AF1EBB791100ACF004 /* View */,
+				F23FD9B01EBB791100ACF004 /* ViewController */,
+				F23FD9AA1EBB749700ACF004 /* Images */,
+				F23FD9791EBB6DE300ACF004 /* AppDelegate.swift */,
+				F23FD9831EBB6DE300ACF004 /* Assets.xcassets */,
+				F23FD9881EBB6DE300ACF004 /* Info.plist */,
+				F23FD9801EBB6DE300ACF004 /* Employee_Management.xcdatamodeld */,
+			);
+			path = "Employee Management";
+			sourceTree = "<group>";
+		};
+		F23FD9901EBB6DE300ACF004 /* Employee ManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD9911EBB6DE300ACF004 /* Employee_ManagementTests.swift */,
+				F23FD9931EBB6DE300ACF004 /* Info.plist */,
+			);
+			path = "Employee ManagementTests";
+			sourceTree = "<group>";
+		};
+		F23FD99B1EBB6DE300ACF004 /* Employee ManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD99C1EBB6DE300ACF004 /* Employee_ManagementUITests.swift */,
+				F23FD99E1EBB6DE300ACF004 /* Info.plist */,
+			);
+			path = "Employee ManagementUITests";
+			sourceTree = "<group>";
+		};
+		F23FD9AA1EBB749700ACF004 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD9AB1EBB74A300ACF004 /* initial-down-arrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F23FD9AF1EBB791100ACF004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F23FD97D1EBB6DE300ACF004 /* Main.storyboard */,
+				F23FD9851EBB6DE300ACF004 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F23FD9B01EBB791100ACF004 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F2174DF41EBDB37E00C3B9C1 /* EmployeeListingViewController.swift */,
+				F23FD9B11EBB793700ACF004 /* EmployeeListTableViewCell.swift */,
+				F2174DF61EBF486D00C3B9C1 /* EmployeeDetailViewController.swift */,
+				F2174DEC1EBCD18600C3B9C1 /* EmployeeAddViewController.swift */,
+				F2174DEA1EBCD15A00C3B9C1 /* DatePickerViewController.swift */,
+				F2174DEE1EBCDFE000C3B9C1 /* GenderTableViewController.swift */,
+				F2174DF21EBCF40D00C3B9C1 /* HobbieViewController.swift */,
+				F2174DFC1EBF840F00C3B9C1 /* SortTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23FD9751EBB6DE300ACF004 /* Employee Management */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23FD9A11EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee Management" */;
+			buildPhases = (
+				F23FD9721EBB6DE300ACF004 /* Sources */,
+				F23FD9731EBB6DE300ACF004 /* Frameworks */,
+				F23FD9741EBB6DE300ACF004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Management";
+			productName = "Employee Management";
+			productReference = F23FD9761EBB6DE300ACF004 /* Employee Management.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23FD98C1EBB6DE300ACF004 /* Employee ManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23FD9A41EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee ManagementTests" */;
+			buildPhases = (
+				F23FD9891EBB6DE300ACF004 /* Sources */,
+				F23FD98A1EBB6DE300ACF004 /* Frameworks */,
+				F23FD98B1EBB6DE300ACF004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23FD98F1EBB6DE300ACF004 /* PBXTargetDependency */,
+			);
+			name = "Employee ManagementTests";
+			productName = "Employee ManagementTests";
+			productReference = F23FD98D1EBB6DE300ACF004 /* Employee ManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F23FD9971EBB6DE300ACF004 /* Employee ManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23FD9A71EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee ManagementUITests" */;
+			buildPhases = (
+				F23FD9941EBB6DE300ACF004 /* Sources */,
+				F23FD9951EBB6DE300ACF004 /* Frameworks */,
+				F23FD9961EBB6DE300ACF004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23FD99A1EBB6DE300ACF004 /* PBXTargetDependency */,
+			);
+			name = "Employee ManagementUITests";
+			productName = "Employee ManagementUITests";
+			productReference = F23FD9981EBB6DE300ACF004 /* Employee ManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23FD96E1EBB6DE200ACF004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ashika kalmady";
+				TargetAttributes = {
+					F23FD9751EBB6DE300ACF004 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Manual;
+					};
+					F23FD98C1EBB6DE300ACF004 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23FD9751EBB6DE300ACF004;
+					};
+					F23FD9971EBB6DE300ACF004 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F23FD9751EBB6DE300ACF004;
+					};
+				};
+			};
+			buildConfigurationList = F23FD9711EBB6DE300ACF004 /* Build configuration list for PBXProject "Employee Management" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23FD96D1EBB6DE200ACF004;
+			productRefGroup = F23FD9771EBB6DE300ACF004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23FD9751EBB6DE300ACF004 /* Employee Management */,
+				F23FD98C1EBB6DE300ACF004 /* Employee ManagementTests */,
+				F23FD9971EBB6DE300ACF004 /* Employee ManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23FD9741EBB6DE300ACF004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23FD9AC1EBB74A300ACF004 /* initial-down-arrow.png in Resources */,
+				F23FD9871EBB6DE300ACF004 /* LaunchScreen.storyboard in Resources */,
+				F23FD9841EBB6DE300ACF004 /* Assets.xcassets in Resources */,
+				F23FD97F1EBB6DE300ACF004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD98B1EBB6DE300ACF004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD9961EBB6DE300ACF004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23FD9721EBB6DE300ACF004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23FD9821EBB6DE300ACF004 /* Employee_Management.xcdatamodeld in Sources */,
+				F2174DEB1EBCD15A00C3B9C1 /* DatePickerViewController.swift in Sources */,
+				F2174DF31EBCF40D00C3B9C1 /* HobbieViewController.swift in Sources */,
+				F23FD9B21EBB793700ACF004 /* EmployeeListTableViewCell.swift in Sources */,
+				F2174DFD1EBF840F00C3B9C1 /* SortTableViewController.swift in Sources */,
+				F2174DEF1EBCDFE000C3B9C1 /* GenderTableViewController.swift in Sources */,
+				F2174DED1EBCD18600C3B9C1 /* EmployeeAddViewController.swift in Sources */,
+				F2174DF51EBDB37E00C3B9C1 /* EmployeeListingViewController.swift in Sources */,
+				F23FD97A1EBB6DE300ACF004 /* AppDelegate.swift in Sources */,
+				F2174DF71EBF486D00C3B9C1 /* EmployeeDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD9891EBB6DE300ACF004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23FD9921EBB6DE300ACF004 /* Employee_ManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23FD9941EBB6DE300ACF004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23FD99D1EBB6DE300ACF004 /* Employee_ManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23FD98F1EBB6DE300ACF004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23FD9751EBB6DE300ACF004 /* Employee Management */;
+			targetProxy = F23FD98E1EBB6DE300ACF004 /* PBXContainerItemProxy */;
+		};
+		F23FD99A1EBB6DE300ACF004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23FD9751EBB6DE300ACF004 /* Employee Management */;
+			targetProxy = F23FD9991EBB6DE300ACF004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23FD97D1EBB6DE300ACF004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23FD97E1EBB6DE300ACF004 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F23FD9851EBB6DE300ACF004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23FD9861EBB6DE300ACF004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23FD99F1EBB6DE300ACF004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F23FD9A01EBB6DE300ACF004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23FD9A21EBB6DE300ACF004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stephanie Blackwell (69J38LD92Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Employee Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.employeemanagment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F23FD9A31EBB6DE300ACF004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stephanie Blackwell (69J38LD92Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Employee Management/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.employeemanagment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F23FD9A51EBB6DE300ACF004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Employee ManagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Employee-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Employee Management.app/Employee Management";
+			};
+			name = Debug;
+		};
+		F23FD9A61EBB6DE300ACF004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Employee ManagementTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Employee-ManagementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Employee Management.app/Employee Management";
+			};
+			name = Release;
+		};
+		F23FD9A81EBB6DE300ACF004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Employee ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Employee-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Employee Management";
+			};
+			name = Debug;
+		};
+		F23FD9A91EBB6DE300ACF004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Employee ManagementUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Employee-ManagementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Employee Management";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23FD9711EBB6DE300ACF004 /* Build configuration list for PBXProject "Employee Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23FD99F1EBB6DE300ACF004 /* Debug */,
+				F23FD9A01EBB6DE300ACF004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23FD9A11EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee Management" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23FD9A21EBB6DE300ACF004 /* Debug */,
+				F23FD9A31EBB6DE300ACF004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23FD9A41EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee ManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23FD9A51EBB6DE300ACF004 /* Debug */,
+				F23FD9A61EBB6DE300ACF004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23FD9A71EBB6DE300ACF004 /* Build configuration list for PBXNativeTarget "Employee ManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23FD9A81EBB6DE300ACF004 /* Debug */,
+				F23FD9A91EBB6DE300ACF004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F23FD9801EBB6DE300ACF004 /* Employee_Management.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F23FD9811EBB6DE300ACF004 /* Employee_Management.xcdatamodel */,
+			);
+			currentVersion = F23FD9811EBB6DE300ACF004 /* Employee_Management.xcdatamodel */;
+			path = Employee_Management.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F23FD96E1EBB6DE200ACF004 /* Project object */;
+}
